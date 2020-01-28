@@ -1,5 +1,7 @@
 .header {
-    img {
+    margin-bottom: 40px;
+    
+    :global .gatsby-image-wrapper {
         width: 300px;
     }
 }
