@@ -1,7 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import logo from "../../images/logo.png"
 import styles from "./header.module.scss"
 
 const Header = () => {

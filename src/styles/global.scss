@@ -1,16 +1,24 @@
-@import "reset.scss";
-
-$colorPrimary: #FCCF20;
+@import "reset";
+@import "media";
+@import "variables";
 
 body {
-    padding: 40px;
-    color: #020202;
+    color: #222;
     font-family: 'Roboto', 'Open Sans', 'Arial';
+    font-size: 17px;
+    padding: 30px;
+
+    @include screen-md {
+        padding: 40px;  
+    }
+}
+
+p {
+    line-height: 1.5;
 }
 
 a {
-    color: #999;
-    text-decoration: none;
+    color: inherit;
     transition: all linear 0.2s;
     display: inline-block;
 
@@ -35,5 +43,5 @@ main {
 
 small {
     font-weight: 700;
-    color: #555;
+    color: #999;
 }
