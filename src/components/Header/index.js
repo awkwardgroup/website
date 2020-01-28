@@ -18,7 +18,7 @@ const Header = () => {
   
     return(
         <header className={styles.header}>
-            <Img fluid={data.file.childImageSharp.fluid} alt="Logotype" width="300px" />
+            <Img fluid={data.file.childImageSharp.fluid} alt="Logotype" />
         </header>
     )
 }

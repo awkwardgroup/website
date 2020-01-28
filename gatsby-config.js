@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Awkward Group - IT Consultants`,
-    description: `Awkward Group provides senior IT consultants within Business and process development, System and Interface design, and programming.`,
+    title: `Awkward Group`,
+    description: `Awkward Group provides senior IT consultants with extensive experience within Business and Process Development, Product and Interface Design, and Full Stack Development.`,
     author: `@joakimstrandell`,
   },
   plugins: [
