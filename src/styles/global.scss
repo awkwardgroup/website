@@ -1,6 +1,6 @@
 @import "reset.scss";
 
-$primaryColor: #FCCF20;
+$colorPrimary: #FCCF20;
 
 body {
     padding: 40px;
@@ -9,18 +9,20 @@ body {
 }
 
 a {
-    color: inherit;
-    transition: all linear 0.1s;
+    color: #999;
+    text-decoration: none;
+    transition: all linear 0.2s;
     display: inline-block;
 
     &:hover {
-        transform: translateX(3px)
+        color: blue;
+        transform: translateX(1px)
     }
 }
 
 i {
     background: #000;
-    color: $primaryColor;
+    color: $colorPrimary;
     display: inline-block;
     padding: 1px 5px;
     margin: 0 0 2px;
@@ -29,4 +31,9 @@ i {
 
 main {
     max-width: 900px;
+}
+
+small {
+    font-weight: 700;
+    color: #555;
 }
