@@ -1,0 +1,29 @@
+@import "reset.scss";
+
+$primaryColor: #FCCF20;
+
+body {
+    padding: 40px;
+    color: #020202;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+i {
+    background: #000;
+    color: $primaryColor;
+    display: inline-block;
+    padding: 1px 5px;
+    font-style: normal;
+}
+
+main {
+    max-width: 900px;
+}

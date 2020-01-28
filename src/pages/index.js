@@ -1,21 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const Index = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO />
+    <p>Awkward Group is a consultant company based in Stockholm, Sweden.</p>
+    <p>Our consultants have extensive experience of working within <i>Business and Process Development</i>, <i>Product and Interface Design</i>, and <i>Full Stack Development</i></p>
+    <p>Please feel free to contact us for any inquiries.</p>
   </Layout>
 )
 
-export default IndexPage
+export default Index
